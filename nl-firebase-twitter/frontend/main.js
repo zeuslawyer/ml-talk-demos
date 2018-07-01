@@ -1,3 +1,4 @@
+
 // Copyright 2017 Google Inc.
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,12 +13,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-
-
-
 // TODO: initialize Firebase. Place your Firebase config credentials here
-// var config = {....}
-// firebase.initializeApp(config);
+
+
+import {config}  from './firebaseConfig.js';
+firebase.initializeApp(config);
 
 const database = firebase.database();
 const adjRef = database.ref('tokens').child('ADJ');
