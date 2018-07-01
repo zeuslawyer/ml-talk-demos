@@ -37,7 +37,7 @@ const Filter = require('bad-words'),
 
 // Replace searchTerms with whatever tweets you want to stream
 // Details here: https://dev.twitter.com/streaming/overview/request-parameters#track
-const searchTerms = 'Australia';
+const searchTerms = 'Australia,racism';
 
 // Add a filter-level param?
 client.stream('statuses/filter', {track: searchTerms, language: 'en'}, function(stream) {
