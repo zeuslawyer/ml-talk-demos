@@ -3,3 +3,6 @@ node_modules/
 *.firebaserc
 *.eslintrc.js
 nl-firebase-twitter/backend/local.sample.json
+nl-firebase-twitter/backend/local.json
+nl-firebase-twitter/backend/firebaseConfig.json
+nl-firebase-twitter/backend/keyfile.json
